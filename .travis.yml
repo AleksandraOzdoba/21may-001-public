@@ -1,13 +1,10 @@
 sudo: false
-dist: trusty
-language: node_js
 
-env: 
-  global: 
-    - MAIN=main 
-  jobs:
-    include:
-      - stage: unit tests
-        script: echo one
-      - stage: unit tests
-        script: echo two
+jobs:
+  include:
+    - stage: test
+      script: echo one
+    - stage: test
+      script: echo two
+    - stage: deploy
+      script: echo deploy
