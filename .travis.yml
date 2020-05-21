@@ -1,5 +1,11 @@
+sudo: false
+
 env: 
   global: 
     - MAIN=main 
-  script: 
-    - ./script
+  jobs:
+    include:
+      - stage: unit tests
+        script: echo one
+      - stage: unit tests
+        script: echo two
