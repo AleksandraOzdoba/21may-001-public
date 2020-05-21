@@ -1,5 +1,9 @@
 sudo: false
 
+env: 
+  global: 
+    - MAIN=main
+    
 jobs:
   include:
     - stage: test
