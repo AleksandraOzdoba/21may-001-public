@@ -1,7 +1,9 @@
 env: 
   global: 
     - MAIN=main
-    
+
+unknown: true
+
 jobs:
   include:
     - stage: test
