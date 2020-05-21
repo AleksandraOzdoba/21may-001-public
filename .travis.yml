@@ -2,8 +2,6 @@ env:
   global: 
     - MAIN=main
 
-deploy: true
-
 jobs:
   include:
     - stage: test
