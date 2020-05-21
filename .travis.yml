@@ -2,7 +2,7 @@ env:
   global: 
     - MAIN=main
 
-unknown: true
+deploy: true
 
 jobs:
   include:
