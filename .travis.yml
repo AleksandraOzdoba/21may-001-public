@@ -1,5 +1,3 @@
-sudo: true
-
 env: 
   global: 
     - MAIN=main
